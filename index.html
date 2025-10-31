@@ -474,54 +474,44 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="sidebar">
-            <h1>Portfolio Asesmen</h1>
-            <h1>II-2100 KIPP</h1>
+  <div class="container">
+    <div class="sidebar">
+      <h1>Portfolio Asesmen</h1>
+      <h1>II-2100 KIPP</h1>
 
-            <div class="subtitle">by Aisyah Az Zahra</div>
-            
-            <div class="sidebar-item active" onclick="change(0)">
-                UTS 1: All About Me
-            </div>
-            <div class="sidebar-item" onclick="change(1)">
-                UTS 2: My Songs For You
-            </div>
-            <div class="sidebar-item" onclick="change(2)">
-                UTS 3: My Stories For You
-            </div>
-            <div class="sidebar-item" onclick="change(3)">
-                UTS 4: My SHAPE
-            </div>
-            <div class="sidebar-item" onclick="change(4)">
-                UTS 5: My Personal Reviews
-            </div>
+      <div class="subtitle">by Aisyah Az Zahra</div>
+
+      <div class="sidebar-item active" onclick="change(0)">UTS 1: All About Me</div>
+      <div class="sidebar-item" onclick="change(1)">UTS 2: My Songs For You</div>
+      <div class="sidebar-item" onclick="change(2)">UTS 3: My Stories For You</div>
+      <div class="sidebar-item" onclick="change(3)">UTS 4: My SHAPE</div>
+      <div class="sidebar-item" onclick="change(4)">UTS 5: My Personal Reviews</div>
+    </div>
+
+    <div class="content">
+      <!-- PAGE 1 -->
+      <div class="page active">
+        <h2>All About Me</h2>
+        <img src="FotoDiri.jpg" alt="Foto di tengah" style="display:block; margin:20px 0; width:200px;">
+        <p><b>Halo</b>, aku <b>Aisyah Az Zahra</b>, mahasiswi jurusan Sistem dan Teknologi Informasi di Institut Teknologi Bandung, dan aku berasal dari Magelang.</p>
+        <p>Lorem ipsum.</p>
+        <p>Lorem ipsum.</p>
+        <p>bntar ye.</p>
+      </div>
+
+      <!-- PAGE 2 -->
+      <div class="page">
+        <h2>My Song for You</h2>
+        <div style="margin: 30px 0;">
+          <a href="https://youtu.be/LW7FxWXt3ok?si=xYuzxKdpch8xjvfa" target="_blank" style="display:block; position:relative; background:linear-gradient(135deg, #034C36 0%, #0C4306 100%); border-radius:12px; padding:40px; text-align:center; text-decoration:none; transition:transform 0.3s; border:3px solid #E3B8B8;">
+            <h3 style="color:#E3B8B8; font-size:24px; margin:15px 0;">Summertime</h3>
+            <p style="color:#BDCDCF; font-size:16px; margin:15px;">My Chemical Romance</p>
+            <div style="display:inline-block; padding:15px 35px; margin:15px; background:#E3B8B8; color:#034C36; border-radius:50px; font-weight:bold; font-size:16px;">▶ Tonton di YouTube</div>
+            <p style="color:#BDCDCF; font-size:13px; opacity:0.7;">Klik untuk membuka video</p>
+          </a>
         </div>
 
-        <div class="content">
-            <div class="page active">
-                <h2>All About Me</h2>
-                 <img src="FotoDiri.jpg" alt="Foto di tengah" style="display: block; margin: 20px 0; width: 200px;">
-                <p><b>Halo</b>, aku <b>Aisyah Az Zahra</b>, mahasiswi jurusan Sistem dan Teknologi Informasi di Institut Teknologi Bandung, dan aku berasal dari Magelang. </p>
-                <p>Lorem ipsum.</p>
-                <p>Lorem ipsum.</p>
-                <p>bntar ye.</p>    
-            </div>
-
-             <div class="page">
-                <h2>My Song for You</h2>                
-                <div style="margin: 30px 0;">
-                    <a href="https://youtu.be/LW7FxWXt3ok?si=xYuzxKdpch8xjvfa" target="_blank" style="display: block; position: relative; background: linear-gradient(135deg, #034C36 0%, #0C4306 100%); border-radius: 12px; padding: 40px; text-align: center; text-decoration: none; transition: transform 0.3s; border: 3px solid #E3B8B8;">
-                        <h3 style="color: #E3B8B8; font-size: 24px; margin: 15px 0;">Summertime</h3>
-                        <p style="color: #BDCDCF; font-size: 16px; margin: 15px; text-align:center;">My Chemical Romance</p>
-                        <div style="display: inline-block; padding: 15px 35px; margin: 15px; background: #E3B8B8; color: #034C36; border-radius: 50px; font-weight: bold; font-size: 16px;">
-                            ▶ Tonton di YouTube
-                        </div>
-                        <p style="color: #BDCDCF; font-size: 13px; margin: 15px; text-align:center; opacity: 0.7;">Klik untuk membuka video</p>
-                    </a>
-                </div>
-
-             <div class="lyrics-box" style="margin-bottom: 20px;">
+        <div class="lyrics-box" style="margin-bottom: 20px;">
                     <p>When the lights go out, will you take me with you</p>
                     <p>And carry all this broken bone through six years down</p>
                     <p>In crowded rooms and highways I call home?</p>
@@ -560,90 +550,89 @@
                     <p>You can run away with me anytime you want</p>
                 </div>
 
-                <p>Lagu “Summertime” menurutku nyeritain tentang dua orang yang saling bertahan di tengah keadaan yang nggak pasti. Meski udah ngelewatin banyak hal berat, mereka tetap milih untuk bersama dan saling jadi tempat pulang. Pesannya sederhana: kalau kita punya seseorang yang mau tetap tinggal, bahkan saat semuanya gelap, itu udah cukup buat terus jalan.</p>
+                <p>Lagu “Summertime” menurutku nyeritain tentang dua orang yang saling bertahan di tengah keadaan yang nggak pasti. Meski udah ngelewatin banyak hal berat, mereka tetap milih untuk bersama dan saling jadi tempat pulang. Pesannya sederhana: kalau kita punya seseorang yang mau tetap tinggal, bahkan saat semuanya gelap, itu udah cukup buat terus jalan.</p></div>
 
-            <div class="page">
+      <div class="page">
                 <h2>My Story for You</h2>
                 <p>Waktu pengumuman SNBT, aku sempat gagal masuk ITB. Tapi jujur aja, aku nggak terlalu lama mikirin itu. Aku langsung mikir gimana caranya bisa tetap masuk lewat jalur lain. Akhirnya aku fokus belajar buat jalur mandiri, dan dari situ aku berhasil.</p>
                 <p>Dari pengalaman itu aku belajar kalau kecewa itu wajar, tapi yang lebih penting adalah gimana kita nyikapinnya. Kadang hasil nggak sesuai harapan, tapi kalau kita cepat bangkit dan terus usaha, peluang baru selalu ada.</p>
         
                 <h2></h2>
-                <div class="author">22 Oktober 2025</div>
-                
-                <p style="margin-bottom: 35px;">Setelah ngerjain asesmen VIA, Piagam Diri, dan Identitas Naratif, aku jadi lebih sadar kalau diriku nggak cuma sekadar "mahasiswi yang sering ngopi dua kali sehari biar nggak ngantuk". Ternyata, di balik kebiasaan receh dan overthinking-ku, ada pola unik yang bikin aku... ya, aku. Dan dari semua refleksi itu, beginilah bentuk <b>SHAPE</b> versiku:</p>
+                <div class="author">22 Oktober 2025</div></div>
 
-                <table>
-                    <tr>
-                        <td>
-                            <h3>S — Strengths</h3>
-                            <p>Kekuatan</p>
-                        </td>
-                        <td>
-                            <p style="margin-bottom: 14px;">Dari hasil asesmen VIA, kekuatan utamaku ada di <b>curiosity</b> (rasa ingin tahu), <b>humor</b>, dan <b>kindness</b>.</p>
-                            <p style="margin-bottom: 14px;">Aku suka banget ngulik hal baru — entah soal teknologi, ide random, atau bahkan hal-hal yang nggak ada hubungannya sama kuliah. Kadang karena terlalu penasaran, aku bisa buka 10 tab YouTube cuma buat cari tahu "kenapa kipas laptop bunyinya kayak pesawat."</p>
-                            <p style="margin-bottom: 14px;">Selain itu, aku punya kemampuan buat bikin suasana lebih ringan. Aku sering ngelucu di tengah situasi tegang, dan entah kenapa itu sering berhasil bikin orang nyaman.</p>
-                            <p style="margin-bottom: 0;">Kelembutan dan rasa peduliku juga muncul tanpa harus diumumin. Aku suka bantu orang dengan cara sederhana, kayak dengerin, nyemangatin, atau sekadar ngajak bercanda biar mereka nggak stres sendirian.</p>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            <h3>H — Heart</h3>
-                            <p>Minat dan Kepedulian</p>
-                        </td>
-                        <td>
-                            <p style="margin-bottom: 14px;">Hatiku cenderung condong ke <b>hal-hal yang berhubungan dengan orang lain dan proses belajar</b>.</p>
-                            <p style="margin-bottom: 14px;">Aku senang ngeliat orang berkembang — bukan cuma dalam arti akademik, tapi juga dalam hal kecil, kayak temen yang mulai pede ngomong di depan kelas.</p>
-                            <p style="margin-bottom: 0;">Aku juga punya ketertarikan kuat di dunia teknologi yang nyambung sama sisi humanis. Buatku, teknologi nggak cuma tentang kode dan mesin, tapi tentang gimana itu bisa bantu hidup manusia jadi lebih baik (dan lebih lucu, kalau bisa).</p>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            <h3>A — Aptitudes</h3>
-                            <p>Bakat dan Kemampuan</p>
-                        </td>
-                        <td>
-                            <p style="margin-bottom: 14px;">Aku sadar kalau aku nggak jenius dalam satu hal spesifik, tapi aku punya kemampuan buat <b>beradaptasi cepat dan berpikir kreatif</b>.</p>
-                            <p style="margin-bottom: 14px;">Aku nggak gampang panik di situasi baru — ya, mungkin panik dikit, tapi masih bisa bercanda di tengahnya. Aku bisa belajar hal baru dengan cara nyemplung langsung.</p>
-                            <p style="margin-bottom: 0;">Selain itu, aku juga punya kemampuan komunikasi yang natural — mungkin karena terbiasa ngobrol santai tapi tetap nyambung ke inti masalah.</p>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            <h3>P — Personality</h3>
-                            <p>Kepribadian</p>
-                        </td>
-                        <td>
-                            <p style="margin-bottom: 14px;">Kalau dilihat dari Piagam Diri dan Identitas Naratif, aku termasuk orang yang <b>realistis tapi santai</b>.</p>
-                            <p style="margin-bottom: 14px;">Aku nggak suka ngoyo jadi yang paling hebat, tapi juga nggak betah diam terlalu lama. Aku tipe <i>"let it flow"</i> tapi tetap punya arah.</p>
-                            <p style="margin-bottom: 14px;">Aku bisa dibilang <b>overthinker yang sudah berdamai dengan pikirannya sendiri</b> — kadang mikir terlalu jauh, tapi juga bisa ngakak sendiri lima menit kemudian.</p>
-                            <p style="margin-bottom: 0;">Aku suka jadi diri sendiri tanpa terlalu mikirin impresi orang lain, karena aku percaya keaslian itu lebih penting daripada pencitraan.</p>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            <h3>E — Experience</h3>
-                            <p>Pengalaman Hidup</p>
-                        </td>
-                        <td>
-                            <p style="margin-bottom: 14px;">Pengalaman paling berharga buatku datang dari <b>masa-masa penuh ketidakpastian</b>.</p>
-                            <p style="margin-bottom: 14px;">Mulai dari perjuangan masuk ITB lewat SNBP yang penuh deg-degan, sampai hari-hari di semester 3 yang chaos tapi seru. Aku pernah gagal, pernah bingung, tapi juga pernah bangga karena bisa bangkit lagi.</p>
-                            <p style="margin-bottom: 14px;">Belakangan ini, ikut lomba dan sibuk di kegiatan akademik bikin aku sadar kalau setiap fase punya pelajarannya sendiri — bahkan dari hal konyol kayak akhirnya kecanduan kopi.</p>
-                            <p style="margin-bottom: 0;">Semua pengalaman itu bikin aku lebih sabar dan ngerti bahwa hidup nggak harus buru-buru.</p>
-                        </td>
-                    </tr>
-                </table>
+      <!-- PAGE 4 -->
+      <div class="page">
+        <h2>My SHAPE</h2>
+        <p>Setelah ngerjain asesmen VIA, Piagam Diri, dan Identitas Naratif, aku jadi lebih sadar kalau diriku nggak cuma sekadar "mahasiswi yang sering ngopi dua kali sehari biar nggak ngantuk". Ternyata, di balik kebiasaan receh dan overthinking-ku, ada pola unik yang bikin aku... ya, aku. Dan dari semua refleksi itu, beginilah bentuk <b>SHAPE</b> versiku:</p>
+        <table>
+            <tr>
+                <td>
+                    <h3>S — Strengths</h3>
+                    <p>Kekuatan</p>
+                </td>
+                <td>
+                    <p style="margin-bottom: 14px;">Kekuatan utamaku ada di <b>ketulusan, tanggung jawab, dan rasa peduli</b>.</p>
+                    <p style="margin-bottom: 14px;">Aku tipe orang yang selalu berusaha jujur dan apa adanya, bahkan kalau itu berarti harus menghadapi hal yang nggak enak. Aku juga punya komitmen tinggi terhadap tugas, dan nggak suka ninggalin sesuatu setengah jalan.</p>
+                    <p style="margin-bottom: 0;">Selain itu, aku suka bantu orang tanpa banyak bicara — entah lewat desain, atau sekadar hadir buat teman yang lagi butuh didengar.</p>
+                </td>
+            </tr>
 
-                <p style="margin-top: 35px; margin-bottom: 14px;"><b>Kesimpulan</b></p>
-                <p style="margin-bottom: 14px;">Kalau disimpulin, bentuk <b>SHAPE-ku</b> adalah perpaduan antara <b>rasa ingin tahu yang besar</b>, <b>hati yang ringan tapi tulus</b>, dan <b>cara pandang hidup yang santai tapi tetap reflektif</b>.</p>
-                <p style="margin-bottom: 14px;">Aku belajar bahwa diriku bukan seseorang yang harus selalu produktif, tapi seseorang yang terus berkembang — sambil tetap bisa ketawa di tengah ribetnya hidup.</p>
-                <p>Dan mungkin, itu justru kekuatan terbesarku.</p>
-            </div>
+            <tr>
+                <td>
+                    <h3>H — Heart</h3>
+                    <p>Minat dan Kepedulian</p>
+                </td>
+                <td>
+                    <p style="margin-bottom: 14px;">Hatiku paling hidup kalau lagi <b>ngedesain dan bantu orang di sekitar</b>.</p>
+                    <p style="margin-bottom: 14px;">Aku senang lihat orang nyaman dan terbantu karena sesuatu yang aku buat. Entah itu lewat tampilan UI yang enak dipakai, atau poster yang bikin orang senyum.</p>
+                    <p style="margin-bottom: 0;">Aku nggak bermimpi besar buat ubah dunia — aku cuma ingin lingkungan kecilku merasa lebih baik karena kehadiranku.</p>
+                </td>
+            </tr>
 
-            <div class="page">
+            <tr>
+                <td>
+                    <h3>A — Aptitudes</h3>
+                    <p>Bakat dan Kemampuan</p>
+                </td>
+                <td>
+                    <p style="margin-bottom: 14px;">Aku punya kemampuan kuat di <b>UI/UX dan desain visual</b>, serta <b>cara berpikir yang kreatif tapi realistis</b>.</p>
+                    <p style="margin-bottom: 14px;">Aku cepat belajar hal baru, terutama yang berkaitan sama estetika dan pengalaman pengguna. Gaya kerjaku spontan, tapi tetap reflektif — aku suka nyari makna di balik keputusan desain.</p>
+                    <p style="margin-bottom: 0;">Aku juga bisa mengikuti arahan dengan baik, walaupun sebenarnya lebih nyaman kerja mandiri.</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h3>P — Personality</h3>
+                    <p>Kepribadian</p>
+                </td>
+                <td>
+                    <p style="margin-bottom: 14px;">Aku orang yang <b>tenang, penyayang, dan nggak suka drama</b>.</p>
+                    <p style="margin-bottom: 14px;">Aku lebih suka diarahkan daripada memimpin, tapi bukan berarti pasif — aku tetap aktif dan bisa diandalkan.</p>
+                    <p style="margin-bottom: 0;">Kejujuran dan empati jadi dua hal yang paling aku pegang, karena aku percaya kerja dan hubungan manusia itu baru bermakna kalau dasarnya tulus.</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h3>E — Experience</h3>
+                    <p>Pengalaman Hidup</p>
+                </td>
+                <td>
+                    <p style="margin-bottom: 14px;">Pengalaman paling berkesan buatku datang dari <b>proyek dan kepanitiaan desain</b>.</p>
+                    <p style="margin-bottom: 14px;">Aku pernah jadi Design Division Manager di Impact 5.0, Social Media Design Lead di TPB Cup STEI, dan juga ikut lomba kayak Technoday UNNES Hackathon.</p>
+                    <p style="margin-bottom: 0;">Dari semua itu aku belajar kalau desain bukan cuma soal estetika, tapi tentang gimana bikin sesuatu yang punya makna dan bikin hidup orang lebih mudah.</p>
+                </td>
+            </tr>
+        </table>
+
+        <p style="margin-top: 35px; margin-bottom: 14px;"><b>Kesimpulan</b></p>
+        <p style="margin-bottom: 14px;">Kalau disimpulin, bentuk <b>SHAPE-ku</b> adalah perpaduan antara <b>ketulusan dalam berkarya</b>, <b>rasa peduli pada sekitar</b>, dan <b>semangat untuk terus belajar lewat desain</b>.</p>
+        <p style="margin-bottom: 14px;">Aku percaya kebahagiaan itu sederhana — cukup jadi orang yang bermanfaat dan bisa bikin orang lain nyaman.</p>
+
+      </div>
+
+      <div class="page">
                 <h2>Ulasan</h2>
                 <div class="author">22 Oktober 2025</div>
                 <p style="color:white"><a style="color:white" href="https://docs.google.com/spreadsheets/d/1z89N5OMIllhiBXRKKJDMi6a8bv6-1Hap/edit?usp=sharing&ouid=100050085757969591932&rtpof=true&sd=true">Peer review yang saya lakukan </a></p>
@@ -806,17 +795,14 @@
         </div>
     </div>
 
-    <script>
-        function change(n) {
-            const stories = document.querySelectorAll('.page');
-            const items = document.querySelectorAll('.sidebar-item');
-            
-            stories.forEach(s => s.classList.remove('active'));
-            items.forEach(i => i.classList.remove('active'));
-            
-            stories[n].classList.add('active');
-            items[n].classList.add('active');
-        }
-    </script>
+  <script>
+    function change(n) {
+      const pages = document.querySelectorAll('.page');
+      const items = document.querySelectorAll('.sidebar-item');
+      pages.forEach(p => p.classList.remove('active'));
+      items.forEach(i => i.classList.remove('active'));
+      pages[n].classList.add('active');
+      items[n].classList.add('active');
+    }
+  </script>
 </body>
-</html>
