@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -129,6 +128,16 @@
 
         @keyframes expandWidth {
             to { width: 100%; }
+        }
+        
+        .content h3.sub-title {
+            color: #d0d0d0;
+            font-size: 20px;
+            margin-bottom: 25px;
+            font-weight: normal;
+            border-bottom: 1px solid #444;
+            padding-bottom: 10px;
+            display: inline-block;
         }
 
         .author {
@@ -317,10 +326,14 @@
       <div class="sidebar-item" onclick="change(2)">UTS 3: My Stories For You</div>
       <div class="sidebar-item" onclick="change(3)">UTS 4: My SHAPE</div>
       <div class="sidebar-item" onclick="change(4)">UTS 5: My Personal Reviews</div>
+      <div style="margin: 20px 0; border-bottom: 1px solid #444;"></div>
+      <div class="sidebar-item" onclick="change(5)">UAS 1: My Concepts</div>
+      <div class="sidebar-item" onclick="change(6)">UAS 2: My Opinions</div>
+      <div class="sidebar-item" onclick="change(7)">UAS 3: My Innovations</div>
+      <div class="sidebar-item" onclick="change(8)">UAS 4: My Knowledge</div>
     </div>
 
     <div class="content">
-      <!-- PAGE 1 -->
       <div class="page active">
         <h2>All About Me</h2>
         <img src="WhatsApp Image 2025-10-31 at 19.45.41_12d7489b.jpg" alt="Foto di tengah" style="display:block; margin:20px 0; width:300px;">
@@ -329,10 +342,9 @@
         <p>Waktu UTBK dulu aku gagal, tapi aku tetap mencoba lagi, karena aku ingin jadi kebanggaan keluargaku. Aku tahu rasanya kecewa, tapi dari situ aku belajar bahwa kegigihan jauh lebih penting daripada hasil yang cepat. Aku belajar menerima bahwa semua orang punya waktu dan jalannya sendiri.</p>
         <p>Awal kuliah di STEI-K juga nggak mudah. Aku sempat nggak pede, merasa nggak cocok, apalagi nilai akademikku sering turun. Tapi akhir-akhir ini, aku mulai pelan-pelan belajar lagi. Saat praktikum dapat nilai yang bukan nol, aku udah senang banget. Mungkin aku nggak akan bisa paham semuanya, tapi aku bisa terus mencoba. Aku ingin tumbuh jadi orang yang nggak berhenti belajar, seberapa kecil pun langkahnya.</p>
         <p>Ngomongin mimpi, sebenernya aku cuma pengen jadi orang kaya yang hidup tenang sampai tua. Tapi kalo soal cita-cita, aku pengen jadi sarjana yang bisa menciptakan teknologi yang berpusat pada manusia. Aku ingin membuat sistem atau aplikasi yang benar-benar membantu orang lain — di bidang pendidikan, pelayanan publik, atau kesejahteraan sosial. Aku percaya teknologi yang paling bermakna adalah yang bisa diakses dan dirasakan manfaatnya oleh semua orang. Suatu hari nanti, aku ingin ikut membangun teknologi yang membuat hidup manusia terasa lebih manusiawi.</p>
-    </div>
+      </div>
 
-      <!-- PAGE 2 -->
-        <div class="page">
+      <div class="page">
         <h2>My Song for You</h2>
         <div style="margin: 30px 0;">
             <a href="https://youtu.be/LW7FxWXt3ok?si=xYuzxKdpch8xjvfa" target="_blank" style="display:block; position:relative; background:linear-gradient(135deg, #1A1A1A 0%, #0D0D0D 100%); border-radius:12px; padding:40px; text-align:center; text-decoration:none; transition:transform 0.3s; border:3px solid #CCCCCC;">
@@ -380,19 +392,19 @@
                     <p>You can run away with me anytime you want</p>
                     <p>Or you can write it on your arm</p>
                     <p>You can run away with me anytime you want</p>
-                </div>
+        </div>
 
-                <p>Lagu “Summertime” menurutku nyeritain tentang dua orang yang saling bertahan di tengah keadaan yang nggak pasti. Meski udah ngelewatin banyak hal berat, mereka tetap milih untuk bersama dan saling jadi tempat pulang. Pesannya sederhana: kalau kita punya seseorang yang mau tetap tinggal, bahkan saat semuanya gelap, itu udah cukup buat terus jalan.</p></div>
+        <p>Lagu “Summertime” menurutku nyeritain tentang dua orang yang saling bertahan di tengah keadaan yang nggak pasti. Meski udah ngelewatin banyak hal berat, mereka tetap milih untuk bersama dan saling jadi tempat pulang. Pesannya sederhana: kalau kita punya seseorang yang mau tetap tinggal, bahkan saat semuanya gelap, itu udah cukup buat terus jalan.</p>
+      </div>
 
       <div class="page">
                 <h2>My Story for You</h2>
                 <p>Waktu pengumuman SNBT, aku sempat gagal masuk ITB. Tapi jujur aja, aku nggak terlalu lama mikirin itu. Aku langsung mikir gimana caranya bisa tetap masuk lewat jalur lain. Akhirnya aku fokus belajar buat jalur mandiri, dan dari situ aku berhasil.</p>
                 <p>Dari pengalaman itu aku belajar kalau kecewa itu wajar, tapi yang lebih penting adalah gimana kita nyikapinnya. Kadang hasil nggak sesuai harapan, tapi kalau kita cepat bangkit dan terus usaha, peluang baru selalu ada.</p>
         
-                <h2></h2>
-                <div class="author">22 Oktober 2025</div></div>
+                <div class="author">22 Oktober 2025</div>
+      </div>
 
-      <!-- PAGE 4 -->
       <div class="page">
         <h2>My SHAPE</h2>
         <p>Setelah ngerjain asesmen VIA, Piagam Diri, dan Identitas Naratif, aku jadi lebih sadar kalau diriku nggak cuma sekadar "mahasiswi yang sering ngopi dua kali sehari biar nggak ngantuk". Ternyata, di balik kebiasaan receh dan overthinking-ku, ada pola unik yang bikin aku... ya, aku. Dan dari semua refleksi itu, beginilah bentuk <b>SHAPE</b> versiku:</p>
@@ -464,7 +476,7 @@
 
       </div>
 
-        <div class="page">
+      <div class="page">
             <h2>Ulasan</h2>
             <div class="author">31 Oktober 2025</div>
             <p style="color:white">
@@ -476,8 +488,7 @@
                 Setelah menyusun seluruh halaman dalam portofolio ini, aku mencoba menilai ulang setiap bagiannya secara jujur dan reflektif. Tujuanku sederhana — bukan mencari yang sempurna, tapi memahami sejauh mana setiap karya benar-benar mencerminkan diriku dan perjalanan yang sedang aku jalani.
             </p>
 
-            <!-- ALL ABOUT ME -->
-                <div style="margin-bottom: 50px;">
+            <div style="margin-bottom: 50px;">
                     <h3 style="color: #ffffff; font-size: 22px; margin-bottom: 20px;">UTS 1: All About Me</h3>
                     <table>
                     <tr>
@@ -515,7 +526,6 @@
                     <p style="margin-top: 15px;"><b>Rata-rata: 4.75</b></p>
                 </div>
 
-                <!-- MY SONG FOR YOU -->
                 <div style="margin-bottom: 50px;">
                     <h3 style="color: #ffffff; font-size: 22px; margin-bottom: 20px;">UTS 2: My Song for You</h3>
                     <table>
@@ -549,7 +559,6 @@
                     <p style="margin-top: 15px;"><b>Rata-rata: 4.33</b></p>
                 </div>
 
-                <!-- MY STORY FOR YOU -->
                 <div style="margin-bottom: 50px;">
                     <h3 style="color: #ffffff; font-size: 22px; margin-bottom: 20px;">UTS 3: My Story for You</h3>
                     <table>
@@ -583,7 +592,6 @@
                     <p style="margin-top: 15px;"><b>Rata-rata: 5.00</b></p>
                 </div>
 
-                <!-- MY SHAPE -->
                 <div style="margin-bottom: 50px;">
                     <h3 style="color: #ffffff; font-size: 22px; margin-bottom: 20px;">UTS 4: My SHAPE</h3>
                     <table>
@@ -621,10 +629,42 @@
                     <b>Refleksi Akhir:</b>  
                     Aku sadar bahwa semua bagian di portofolio ini bukan sekadar tugas, tapi potongan kecil dari caraku memahami diri sendiri. Ada rasa takut, harapan, dan usaha untuk terus mencoba meski belum selalu berhasil. Buatku, kejujuran adalah bentuk kekuatan yang paling manusiawi — dan lewat proses ini, aku merasa sedikit lebih dekat dengan versi terbaik dari diriku sendiri.
                 </p>
-                </div>
+      </div>
 
-        </div>
+      <div class="page">
+        <h2>My Concepts</h2>
+        <h3 class="sub-title">Pendidikan sebagai Fondasi Pembangunan Manusia dan Sosial</h3>
+        <p>Akses pendidikan dan melek huruf merupakan fondasi utama dalam pembangunan manusia. Pendidikan tidak hanya dimaknai sebagai kehadiran di sekolah, tetapi sebagai proses untuk memperoleh kemampuan dasar seperti membaca, menulis, dan berhitung yang berperan besar dalam menentukan kualitas hidup seseorang. Tanpa keterampilan tersebut, individu akan kesulitan beradaptasi dengan perkembangan ekonomi, sosial, dan teknologi.</p>
+        <p>Konsep akses pendidikan juga berkaitan erat dengan pemerataan. Permasalahan yang muncul bukan sekadar ketersediaan sekolah, tetapi sejauh mana pendidikan dapat dijangkau oleh seluruh lapisan masyarakat. Faktor kemiskinan, konflik, diskriminasi gender, serta kondisi geografis yang terpencil masih menjadi hambatan utama. Bahkan ketika pendidikan formal dapat diakses, rendahnya mutu pengajaran sering kali membuat peserta didik tidak memperoleh kompetensi dasar secara optimal.</p>
+        <p>Melek huruf menjadi indikator penting dalam menilai keberhasilan sistem pendidikan. Tingginya angka buta huruf, khususnya di kalangan orang dewasa, mencerminkan adanya kesenjangan dalam akses dan kualitas pendidikan. Dampaknya meluas, baik pada tingkat individu maupun nasional, karena rendahnya tingkat pendidikan berkontribusi pada lambatnya pertumbuhan ekonomi dan meningkatnya ketimpangan sosial.</p>
+      </div>
+
+      <div class="page">
+        <h2>My Opinions</h2>
+        <h3 class="sub-title">Menimbang Ketimpangan Akses Pendidikan di Era Global</h3>
+        <p>Isu akses pendidikan dan buta huruf sering dianggap sebagai persoalan lama, padahal dampaknya masih sangat nyata hingga saat ini. Di tengah kemajuan teknologi dan informasi, kenyataan bahwa ratusan juta orang masih belum mampu membaca dan menulis menunjukkan bahwa perkembangan global belum sepenuhnya inklusif.</p>
+        <p>Kesenjangan gender dalam pendidikan juga menjadi persoalan yang menonjol. Dominasi perempuan dalam kelompok penduduk buta huruf menunjukkan bahwa pendidikan belum sepenuhnya diperlakukan sebagai hak universal. Ketimpangan ini tidak hanya merugikan individu, tetapi juga berdampak pada kesejahteraan keluarga dan kualitas generasi selanjutnya.</p>
+        <p>Selain itu, meningkatnya angka anak dan remaja yang tidak bersekolah pascapandemi COVID-19 menjadi sinyal serius. Gangguan pembelajaran dalam jangka panjang berpotensi menciptakan generasi yang kehilangan kesempatan mengembangkan kemampuan dasar, sehingga sulit bersaing di masa depan.</p>
+      </div>
+
+      <div class="page">
+        <h2>My Innovations</h2>
+        <h3 class="sub-title">Pendekatan Adaptif untuk Meningkatkan Literasi dan Akses Pendidikan</h3>
+        <p>Permasalahan pendidikan yang kompleks membutuhkan solusi yang adaptif dan kontekstual. Salah satu pendekatan yang dapat dikembangkan adalah pendidikan berbasis komunitas dengan pemanfaatan teknologi sederhana. Tidak semua wilayah memerlukan sistem digital yang canggih; metode pembelajaran yang relevan dengan kondisi lokal justru lebih berkelanjutan.</p>
+        <p>Program literasi untuk orang dewasa juga perlu mendapatkan perhatian lebih. Selama ini, kebijakan pendidikan cenderung berfokus pada anak-anak, sementara orang dewasa yang buta huruf sering terabaikan. Penggabungan program literasi dengan pelatihan keterampilan kerja dapat meningkatkan efektivitas sekaligus dampak ekonomi bagi peserta.</p>
+        <p>Kolaborasi antara pemerintah, lembaga internasional, dan masyarakat lokal menjadi kunci penting. Pendidikan yang dirancang dengan melibatkan masyarakat akan lebih sesuai dengan kebutuhan nyata serta memiliki peluang keberlanjutan yang lebih besar.</p>
+      </div>
+
+      <div class="page">
+        <h2>My Knowledge</h2>
+        <h3 class="sub-title">Gambaran Global Akses Pendidikan dan Tantangan Melek Huruf</h3>
+        <p>Secara global, tingkat melek huruf memang mengalami peningkatan signifikan dalam satu abad terakhir. Namun demikian, sekitar 750 juta orang dewasa di dunia masih tergolong buta huruf atau hampir 10% dari populasi global. Sebagian besar dari kelompok ini adalah perempuan, yang menunjukkan adanya kesenjangan gender dalam akses pendidikan.</p>
+        <p>Di kelompok usia anak dan remaja, data UNESCO tahun 2024 mencatat hampir 250 juta anak dan remaja usia 6–18 tahun tidak bersekolah. Angka ini mengalami peningkatan dibandingkan tahun-tahun sebelumnya, salah satunya akibat dampak pandemi COVID-19 terhadap proses pembelajaran.</p>
+        <p>Secara regional, Afrika Sub-Sahara menghadapi tantangan paling besar, dengan tingkat melek huruf orang dewasa di beberapa negara bahkan berada di bawah sepertiga populasi. Kondisi ini memperlihatkan bahwa krisis pendidikan masih menjadi hambatan serius bagi pembangunan manusia secara global.</p>
+      </div>
+
     </div>
+  </div>
 
   <script>
     function change(n) {
@@ -637,3 +677,4 @@
     }
   </script>
 </body>
+</html>
